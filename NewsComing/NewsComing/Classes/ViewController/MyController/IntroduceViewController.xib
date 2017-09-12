@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntroduceViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMd-Wc-qzQ">
+                    <rect key="frame" x="41" y="40" width="239" height="354"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="354" id="wTv-qn-V7g"/>
+                    </constraints>
+                    <mutableString key="text">       66新闻资讯 让你每天看到最具人气、最个性化的新闻, 帮你及时了解正在发生的大事。 推荐你最感兴趣的新闻，整合评论转发，快速表达和分享， 浏览更快速，体验更流畅。
+
+这不是一个传统的新闻客户端，没有让你无从选择的、眼花缭乱的频道、订阅栏目，也没有如出一辙的没有生气的新闻，给你一个清新的、极简的、个性化的、有生命力的获取资讯的工具;绑定微博账号让你的今日头条变成你个人的媒体，让每一篇新闻都是你想看的，值得你看的，让你看到你在其他地方看不到的精彩热点新闻和网友的精彩评论，让你不再淹没在浩瀚嘈杂、质量参差不齐的讯息当中。</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天津66新闻资讯软件技术有限公司    版权所有       " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgy-1K-XQG">
+                    <rect key="frame" x="10" y="471" width="302" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="DEv-Zr-wTi"/>
+                        <constraint firstAttribute="width" constant="302" id="Ogb-75-Akw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2013-2014 XinYiCheng" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUz-DL-j18">
+                    <rect key="frame" x="16" y="500" width="288" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="288" id="bH9-wQ-DvT"/>
+                        <constraint firstAttribute="height" constant="17" id="cwO-AK-aj1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1j-mn-C7c">
+                    <rect key="frame" x="75" y="525" width="171" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="171" id="7Kp-Ci-pMb"/>
+                        <constraint firstAttribute="height" constant="21" id="nyX-cJ-TbX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="G1j-mn-C7c" firstAttribute="top" secondItem="IUz-DL-j18" secondAttribute="bottom" constant="8" id="3F1-kh-rpj"/>
+                <constraint firstItem="DMd-Wc-qzQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="4dy-QM-I3I"/>
+                <constraint firstItem="G1j-mn-C7c" firstAttribute="top" secondItem="IUz-DL-j18" secondAttribute="bottom" constant="8" id="Kal-vn-I3b"/>
+                <constraint firstItem="IUz-DL-j18" firstAttribute="centerX" secondItem="G1j-mn-C7c" secondAttribute="centerX" id="SMF-PM-8wh"/>
+                <constraint firstItem="Kgy-1K-XQG" firstAttribute="centerX" secondItem="G1j-mn-C7c" secondAttribute="centerX" id="SaG-5t-V5W"/>
+                <constraint firstAttribute="trailing" secondItem="DMd-Wc-qzQ" secondAttribute="trailing" constant="40" id="VO2-2D-5gw"/>
+                <constraint firstItem="IUz-DL-j18" firstAttribute="centerX" secondItem="DMd-Wc-qzQ" secondAttribute="centerX" id="cGw-pb-g72"/>
+                <constraint firstAttribute="bottom" secondItem="G1j-mn-C7c" secondAttribute="bottom" constant="22" id="ceI-2m-KQy"/>
+                <constraint firstItem="DMd-Wc-qzQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="gBX-ty-3w2"/>
+                <constraint firstItem="IUz-DL-j18" firstAttribute="top" secondItem="Kgy-1K-XQG" secondAttribute="bottom" constant="12" id="puN-ap-AIU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
